@@ -1,9 +1,9 @@
 __all__ = (
     "db_helper",
-    # "Base",
+    "Base",
     # "User",
 )
 
 from fastapi_application.core.models.db_helper import db_helper
-# from .base import Base
+from fastapi_application.core.models.base import Base
 # from .user import User
