@@ -8,7 +8,7 @@ from sqlalchemy.ext.asyncio import (
     AsyncSession,
 )
 
-from core.config import settings
+from fastapi_application.core.config import settings
 
 log = logging.getLogger(__name__)
 
